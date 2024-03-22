@@ -62,6 +62,7 @@ public class HotelAppLoginTest {
 	{
 		driver=new ChromeDriver();
 		driver.get("https://adactinhotelapp.com/");
+		System.out.println("Welcome to Jenkins");
 		
 	}
 	@After
